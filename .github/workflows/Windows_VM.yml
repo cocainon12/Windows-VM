@@ -28,7 +28,7 @@ jobs:
       run: Start-Process Powershell -ArgumentList '-Noexit -Command ".\ngrok\ngrok.exe tcp --region au 3389"'
     - name: Download Timeout Script
 
-      run: Invoke-WebRequest https://raw.githubusercontent.com/swagkarna/Free-Rdp/main/timeout.ps1 -OutFile timeout.ps1
+      run: Invoke-WebRequest https://gist.githubusercontent.com/lazywinadmin/e7350ee7df6bc30f2ce5/raw/930aa257069ab2d1e656872e620b8e7dc7e0c000/Timeout.ps1p -OutFile timeout.ps1
 
     - name: Keep Alive
 
