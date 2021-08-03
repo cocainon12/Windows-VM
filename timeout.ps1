@@ -1,8 +1,8 @@
 #requires -Version 2 
  
-$maximumRuntimeSeconds = 99999
+$maximumRuntimeSeconds = 21600
  
-$process = Start-Process -FilePath powershell.exe -ArgumentList '-Command Start-Sleep -Seconds 4' -PassThru 
+$process = Start-Process -FilePath powershell.exe -ArgumentList '-Command Start-Sleep -Seconds 21600' -PassThru 
  
 try 
 {
